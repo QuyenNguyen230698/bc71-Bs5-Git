@@ -19,3 +19,4 @@ git log : hiển thị lịch sử commit
 
 git checkout -b branch : tạo nhánh khác song song với master "branch là tên"
 git checkout branch : kiểm tra bạn đang code push ở nhánh nào ở GitHub
+git checkout "tên nhánh" : chuyển về nhánh bạn muốn 
