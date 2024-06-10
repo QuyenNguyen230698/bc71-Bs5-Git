@@ -4,16 +4,16 @@ Repository local (trong máy user)
 
 Repository remote (trên github)
 
-* tạo Repository local : git init (mỗi dự án làm 1 lần)
+Các bước tạo liên kết dự án chung bằng Github
 
-push : đưa source từ máy (local) len github (remote)
+git init : tạo Repository local (mỗi dự án làm 1 lần)
 
-* liên kết repos local và repo remote : git remote add origin https://github.com/QuyenNguyen230698/bc71-Bs5-Git.git
+git remote add origin https://github.com/QuyenNguyen230698/bc71-Bs5-Git.git : liên kết repos local và repo remote
 
-* push gồm 3 bước (chọn, xác nhận, gửi)
-     B1: git add -A
-     B2: git commit -m " nội dung của commit"
-     B3: git push -u origin master (lần đầu) / git push (lần 2 trở đi)
+push gồm 3 bước (chọn, xác nhận, gửi)
+     Step1: git add -A
+     Step2: git commit -m " nội dung của commit"
+     Step3: git push -u origin master (lần đầu) / git push (lần 2 trở đi)
 
-
+git log : hiển thị lịch sử commit
 
