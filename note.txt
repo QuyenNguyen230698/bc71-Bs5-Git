@@ -17,5 +17,5 @@ push gồm 3 bước (chọn, xác nhận, gửi)
 
 git log : hiển thị lịch sử commit
 
-git checkout -b branch : 
-git checkout branch : 
+git checkout -b branch : tạo nhánh khác song song với master "branch là tên"
+git checkout branch : kiểm tra bạn đang code push ở nhánh nào ở GitHub
