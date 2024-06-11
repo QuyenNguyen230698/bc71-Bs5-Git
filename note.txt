@@ -27,3 +27,6 @@ git checkout branch (nhánh) : chuyển về nhánh (branch) bạn muốn
 git merge master (hoặc nhánh "branch") : dùng để gộp code từ nhánh phụ về master
 
 git clone https://github.com/quangsiDev/bc71-bs5-git.git . : tải và tạo source code bằng link github 
+
+git pull : cập nhật remote của ng khác về local (chỉ ảnh hưởng đến nhánh hiện tại)
+
