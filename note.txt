@@ -30,3 +30,31 @@ git clone https://github.com/quangsiDev/bc71-bs5-git.git . : tải và tạo sou
 
 git pull : cập nhật remote của ng khác về local (chỉ ảnh hưởng đến nhánh hiện tại)
 
+
+
+
+
+git init : khởi tạo repo local
+
+git remote add origin url : kết nối đường dẫn url từ local lên remote ( github )
+
+git remote show origin : hiển thị đường dẫn đang được kết nối
+
+
+git push : đưa source từ local lên remote
+  step 1: git add -A
+  step 2: git commit -m " description "
+  step 3: git push -u origin master (đẩy lần đầu / master là tên nhánh )
+          git push ( lần 2 trở đi, sau khi trên github đã có nhánh master)
+
+git log : hiển thị lịch sử commit
+
+git checkout -b branch : tạo nhánh mới ( branch là tên nhánh / nhớ comit )
+
+git checkout branch : chuyển nhánh ( nhớ commit)
+
+git merge login ( đem code từ nhánh login về nhánh hiện tại)
+
+git clone https://github.com/quangsiDev/bc71-bs5-git.git .
+
+git pull : lấy code từ remote về local ( chỉ ảnh hưởng đến nhánh hiện tại  )
